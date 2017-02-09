@@ -6,7 +6,7 @@ import numpy as np
 import theano as th
 import theano.tensor as T
 import lasagne
-from lasagne.layers import dnn
+#from lasagne.layers import dnn
 from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 
 # T.nnet.relu has some stability issues, this is better
